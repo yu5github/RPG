@@ -29,4 +29,6 @@ public abstract class Character {
 		Character other = (Character) obj;
 		return hp == other.hp;
 	}
+	
+	abstract public void attack(Character target);
 }
